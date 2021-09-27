@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba DashBoard</title>
+    <link rel="stylesheet" href="./../css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./../css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
+    <link rel="stylesheet" href="./../css/validetta.css">
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body class="font-cover" id="login">
+
+
+    <div class="container-login center-align">
+
+
+        <div style="margin:15px 0;">
+            <i class="fas fa-users fa-4x"></i>
+            <p>Inicia sesión con tu cuenta</p>
+        </div>
+        <form id="formEntrar" autocomplete="off">
+            <div class="input-field">
+                <label for="boleta">&nbsp;<i class="fas fa-user"></i>&nbsp;Nombre</label>
+                <input id="boleta" name="boleta" type="text"
+                    data-validetta="required,number,minLength[8],maxLength[10]">
+            </div>
+
+            <p class="right-align"> <a href="home.html">¿Olvidaste tu contraseña?</a></p>
+            <div class="input-field col s12">
+                <label for="contrasena"><i class="fas fa-lock"></i>&nbsp;Contraseña</label>
+                <input id="contrasena" name="contrasena" type="password" data-validetta="required">
+            </div>
+
+
+
+            <button class="btn-large indigo darken-4">Ingresar &nbsp;</button>
+
+        </form>
+        <div class="divider" style="margin: 20px 0;"></div>
+
+        <h6>
+            <a href="./crearCuenta.html">Crear Cuenta</a>
+        </h6>
+        
+
+
+
+    </div><!--Container-->
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large waves-effect waves-light red" href="./../index.php">
+            <i class="fas fa-undo"></i>
+        </a>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./../js/validetta101/dist/validetta.min.js"></script>
+    <script src="./../js/validetta101/localization/validettaLang-es-ES.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+   <script src="./../js/login.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.fixed-action-btn').floatingActionButton();
+        });
+    </script>
+
+</body>
+
+</html>
