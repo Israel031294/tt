@@ -34,7 +34,7 @@ $(document).ready(function() {
                                document.location.href = "./pages/tweb20192.php";    
                             }
                             else if(respJson.status == 1 && respJson.tipoU == "AL"){
-                                document.location.href = "./pages/home.html";
+                                document.location.href = "./inicio/index.php";
                                 //document.location.href = "./pages/tweb20192.php"
                                  
                             }

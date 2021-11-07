@@ -19,8 +19,8 @@
         <a href="#" class="brand-logo"><i class="fas fa-home fa-2x"></i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#">Conocenos</a></li>
-            <li><a href="./inicio/login.html">Log In</a></li>
-            <li><a href="./inicio/crearCuenta.html">Crear una cuenta</a></li>
+            <li><a href="./evaluacion/login.html">Log In</a></li>
+            <li><a href="./evaluacion/cuenta/crearCuenta.html">Crear una cuenta</a></li>
         </ul>
         </div>
     </nav>
@@ -59,7 +59,7 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-            © 2014 Copyright Text
+            © 2021 Copyright Text
             <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>
