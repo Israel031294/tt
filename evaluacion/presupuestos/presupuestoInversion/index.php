@@ -22,17 +22,17 @@
 <body class="stretched sticky-responsive-menu" data-loader="7">
      <!-- Nav Lateral -->
 <section class="NavLateral full-width">
-  <?php include("./../../../html/comunes/lateral.html"); ?>
+  <?php include("./../../html/comunes/lateral.html"); ?> 
 </section>
     <!-- Page content -->
     <section class="ContentPage full-width">
         <!-- Nav Info -->
         <div class="ContentPage-Nav full-width">
-           <?php include("./../../../html/comunes/nav.html"); ?>       
+           <?php include("./../../html/comunes/nav.html"); ?>       
         </div>
         <!-- Notifications area -->
         <section class="z-depth-3 NotificationArea">
-            <?php include("./../../../html/comunes/notification.html"); ?>      
+            <?php include("./../../html/comunes/notification.html"); ?>      
         </section>
 
 
@@ -44,7 +44,7 @@
 
         <!-- Footer -->   
         <footer class="footer-MaterialDark">
-             <?php include("./../../../html/comunes/footer.html"); ?> 
+             <?php include("./../../html/comunes/footer.html"); ?> 
         </footer>
     </section>
     <!--  Alert JS -->
