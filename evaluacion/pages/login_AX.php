@@ -7,7 +7,7 @@
 
     //lo que guarda en la base de datos
     $contrasena = md5($contrasena);
-    $sqlEst = "SELECT * FROM alumno WHERE boleta = '$boleta' AND contrasena = '$contrasena'";
+    $sqlEst = "SELECT * FROM alumno WHERE correo = '$correo' AND contrasena = '$contrasena'";
     $resEst = mysqli_query($conexion, $sqlEst);
     $numEst = mysqli_num_rows($resEst);
     $infGetUser= mysqli_fetch_row($resEst);
