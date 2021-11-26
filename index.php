@@ -9,27 +9,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-<<<<<<< HEAD
-  
-	
- 
-=======
        
 
->>>>>>> israel
 </head>
 <body>
     <header>
         
-<<<<<<< HEAD
-    <nav class="indigo">
-        <div class="nav-wrapper container">
-        <a href="#" class="brand-logo"><i class="fas fa-home fa-2x"></i></a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-            <li><a href="#">Conocenos</a></li>
-            <li><a href="./evaluacion/login.html">Log In</a></li>
-            <li><a href="./evaluacion/cuenta/crearCuenta.html">Crear una cuenta</a></li>
-=======
     <div class="navbar-fixed">
     <nav class="light-green darken-2">
       <div class="nav-wrapper container">
@@ -39,7 +24,6 @@
           <li><a href="">Conocenos</a></li>
           <li><a href="./inicio/login.html">Log In</a></li>
           <li><a href="./inicio/crearCuenta.html">Crear cuenta</a></li>
->>>>>>> israel
         </ul>
       </div>
     </nav> <!-- /menu -->
@@ -53,17 +37,6 @@
     </header>
     <!--main-->
 
-<<<<<<< HEAD
-
-    <section>
-        <div class="container">
-            
-        </div>
-        
-    </section>
-
-        
-=======
     <!--slider-->
     <div class="slider">
         <ul class="slides">
@@ -105,7 +78,6 @@
         <!--fin slider-->
     
     <!--fin main-->
->>>>>>> israel
 
     <footer class="page-footer grey darken-4">
           <div class="container">
@@ -126,29 +98,14 @@
           </div>
           <div class="footer-copyright">
             <div class="container">
-<<<<<<< HEAD
-            © 2021 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-=======
             © 2021 Copyright
->>>>>>> israel
             </div>
           </div>
         </footer>
-
             
 
 
 <!------- JavaScript ---->
-<<<<<<< HEAD
-<!--<script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
--->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
-
-=======
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
         integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -156,7 +113,6 @@
 <script src="./js/index.js"></script>
 
  
->>>>>>> israel
 
 </body>
 </html>
