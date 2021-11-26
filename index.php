@@ -22,16 +22,16 @@
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fas fa-bars"></i></a>
         <ul class="right hide-on-med-and-down">
           <li><a href="">Conocenos</a></li>
-          <li><a href="./inicio/login.html">Log In</a></li>
-          <li><a href="./inicio/crearCuenta.html">Crear cuenta</a></li>
+          <li><a href="./evaluacion/login.html">Log In</a></li>
+          <li><a href="./evaluacion/cuenta/crearCuenta.html">Crear cuenta</a></li>
         </ul>
       </div>
     </nav> <!-- /menu -->
     </div>
     <ul class="sidenav" id="mobile-demo">
           <li><a href="">Conocenos</a></li>
-          <li><a href="./inicio/login.html">Log In</a></li>
-          <li><a href="./inicio/crearCuenta.html">Crear cuenta</a></li>
+          <li><a href="./evaluacion/login.html">Log In</a></li>
+          <li><a href="./evaluacion/cuenta/crearCuenta.html">Crear cuenta</a></li>
     </ul> <!-- /menu mobile-->
 
     </header>

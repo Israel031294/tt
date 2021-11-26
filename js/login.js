@@ -27,6 +27,7 @@ $(document).ready(function() {
                         icon: "fas fa-money-bill-alt fa-2x",
                         //bootstrap, se inabilita para poder usarlo
                         boxWidth: "100%",
+                        
                         useBootstrap: false,
                         //callback para tomar deciones, recargar pagina
                         onDestroy:function(){
@@ -34,7 +35,7 @@ $(document).ready(function() {
                                document.location.href = "./pages/tweb20192.php";    
                             }
                             else if(respJson.status == 1 && respJson.tipoU == "AL"){
-                                document.location.href = "./inicio/index.php";
+                                document.location.href = "./evaluacion/inicio/index.php";
                                 //document.location.href = "./pages/tweb20192.php"
                                  
                             }
